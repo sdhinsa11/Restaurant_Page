@@ -12,7 +12,7 @@ import { contact } from "./contact";
 console.log("this is running");
 
 
-document.addEventListener('DOMContentLoaded', function(){
+function main(){
     let buttons = document.querySelectorAll(".tablinks");
 
     for(let b of buttons){
@@ -40,8 +40,10 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
     document.getElementById("defaultOpen").click();
+}
 
-});
+main();
+
 
 
 

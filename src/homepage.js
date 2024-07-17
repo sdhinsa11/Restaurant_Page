@@ -2,7 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import cafe from './cafe.jpg';
 
-function homePage() {
+export function homePage() {
     const element = document.getElementById("content");
   
     // add the image 
@@ -109,9 +109,10 @@ function homePage() {
     
     element.appendChild(divFour);
 
-    return element;
+    // return element;
+
+    // document.body.appendChild(element);
   }
 
 
-  export { homePage };
   

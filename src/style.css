@@ -118,3 +118,24 @@
     gap: 20px;
     padding: 20px;
 }
+
+#aDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+#aboutDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 800px;
+    padding: 10px;
+    background-color: #CDE8E5 ;
+    gap: 10px;
+    
+    border: 2px solid #4D869C;
+}

@@ -28,13 +28,13 @@
 
 #content{
     /* background: url('./cafe.jpg'); */
-    display: grid;
+    /* display: grid;
     grid-template-rows: 600px 250px 500px 200px ;
     /* gap: 20px; */
     
     height: 100vh;
-    width: 100%;
-    background-color: #4D869C;
+    width: 100%; 
+    /* background-color: #4D869C; */
     
 }
 
@@ -60,6 +60,7 @@
 
 #divTwo{
     display: grid;
+    height:300px;
     padding: 20px; 
     gap: 20px; 
     grid-template-rows: 20% 30% 40%;
@@ -89,3 +90,31 @@
 
 
 
+#menuDiv{
+    display: flex;
+    padding: 100px;
+    gap: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#menuItems{
+    display: grid;
+    /* margin-left: 160px; */
+    justify-content: center;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 200px 200px ;
+    gap: 40px;
+}
+
+
+#itemOne, #itemTwo, #itemThree, #itemFour{
+    border: 2px dotted #4D869C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}

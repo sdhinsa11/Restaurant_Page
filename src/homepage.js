@@ -72,28 +72,6 @@ export function homePage() {
 
     element.appendChild(divTwo);
 
-    // then another div for  subscription 
-
-    // const divThree = document.createElement("div");
-    // divThree.id = "divThree";
-
-    // const news = document.createElement("div");
-    // news.id = "news";
-
-    // const sentence = document.createElement("p");
-    // sentence.textContent = "Sign up for our blog post to get updated on the latest events and deals.";
-
-    // const subBtn = document.createElement("button");
-    // subBtn.textContent = "Sign up";
-
-    // news.appendChild(sentence);
-    // news.appendChild(subBtn);
-    // divThree.appendChild(news);
-    
-    // element.appendChild(divThree);
-
-    // then another one for contact 
-
     const divFour = document.createElement("div");
     divFour.id = "divFour";
 

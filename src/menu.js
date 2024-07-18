@@ -3,6 +3,7 @@ import './style.css';
 
 export function menu(){
     const element = document.getElementById("content");
+    
 
     const pagetwo = document.createElement("p");
     pagetwo.textContent = "The menu button works!";
@@ -10,7 +11,6 @@ export function menu(){
     element.appendChild(pagetwo);
 
     // document.body.appendChild(element);
-
 
 }
 

@@ -4,6 +4,28 @@
     /* background-color: #4D869C; */
 }
 
+
+#header{
+    height: 60px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF7FF;
+}
+
+.tablinks{
+    width: 50px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EEF7FF;
+}
+
+.tablinks:hover{
+    background-color: #CDE8E5;
+}
+
 #content{
     /* background: url('./cafe.jpg'); */
     display: grid;
@@ -31,7 +53,8 @@
     gap: 20px;
     padding: 30px;
     height: 200px;
-    background-color: #4D869C;
+    background-color: #EEF7FF;
+
     /* border: 2px solid paleturquoise; */
 }
 
@@ -57,7 +80,8 @@
 }
 
 #divFour{
-    background-color:#CDE8E5;
+    background-color: #EEF7FF;
+
     display: grid;
     gap: 10px;
     padding: 20px;
